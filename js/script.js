@@ -1,4 +1,4 @@
-console.log("Witam wszystkich którzy tutaj zawitali!");
+console.log("Hej, bardzo mi miło że tu wpadłeś!");
 
 let changeSizeButton = document.querySelector(".section__changeSizeButton");
 let myPicture = document.querySelector(".section__myPhoto");

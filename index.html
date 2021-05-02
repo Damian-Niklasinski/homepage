@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza przykładowa strona!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/globalStyle.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header class="header">
+        <h1 class="header__mainHeader"><span class="header__headerSpan">Hej!</span> Tutaj dowiesz się o mojej osobie
+        </h1>
+    </header>
+
+    <section class="navigation--Section">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem">
+                    <a class="navigation__link" href="#about-me">Kim jestem?</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__link" href="#school">Szkoła</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__link" href="#table">Tabela</a>
+                </li>
+            </ul>
+            <button class="section__changeThemeButton">Zmień kolor tła</button>
+        </nav>
+    </section>
+
+    <section class="section aboutMe--section" id="about-me">
+        <h2 class="section__subHeader">Kim jestem?</h2>
+        <p>Nazywam się Damian Niklasiński, mam 22 lata. Mieszkam w Wodzisławiu Śląskim. Interesuję
+            się Komputerami a
+            konkretnie <strong>e-sportem</strong> który coraz prężniej rozwija się w naszym kraju. Osobiście posiadam
+            parę mniejszych
+            sukcesów właśnie w tej branży.
+            <img class="section__myPhoto" src="https://i.imgur.com/ZJH4yRz.jpg" alt="Damian Niklasiński">
+            <button class="section__changeSizeButton">Zmniejsz rozmiar zdjęcia</button>
+    </section>
+
+    <section class="section school--section" id="school">
+        <h2 class="section__subHeader">Jaką szkołę ukończyłem?</h2>
+        <p>Ukończyłem Technikum budowlane o kierunku <b>Energii Odnawialnej</b>, jednak profil nie przekonał mnie na
+            tyle aby
+            spełniać się w tym zawodzie. Podjąłem decyzję aby się przebranżowić dlatego dzisiaj tworzę tę stronę.</p>
+        <img class="section__schoolPicture" src="https://i.imgur.com/YdhS0XR.jpg" alt="Szkoła">
+        <button class="section__hideSchoolPictureButton">Ukryj zdjęcie</button>
+    </section>
+
+    <section class="section section--myTable" id="table">
+        <h2 class="section__subHeader">Ulubione gry</h2>
+        <p>Wcześniej wspominałem, że interesuję się e-sportem, w tej tabelii przedstawię parę gier w których spędzam
+            wolny czas!</p>
+        <div class="section__tableContainer">
+            <table class="table">
+                <caption class="table__caption">Tabela przedstawiająca listę gier w których spędzam najwięcej czasu
+                </caption>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="col">Nazwa gry</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Developer</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Data wydania</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Platforma</th>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableHeader" scope="row">Counter-Strike: Global Offensive</td>
+                    <td class="table__tableCell table__tableCellText">Valve</td>
+                    <td class="table__tableCell table__tableCellText">21 Sierpień, 2012</td>
+                    <td class="table__tableCell table__tableCellText">Steam</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableHeader" scope="row">League of Legends</td>
+                    <td class="table__tableCell table__tableCellText">Riot Games</td>
+                    <td class="table__tableCell table__tableCellText">27 Październik, 2009</td>
+                    <td class="table__tableCell table__tableCellText">RIOT</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableHeader" scope="row">Valorant</td>
+                    <td class="table__tableCell table__tableCellText">Riot Games</td>
+                    <td class="table__tableCell table__tableCellText">2 Czerwiec, 2020</td>
+                    <td class="table__tableCell table__tableCellText">RIOT</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableHeader" scope="row">Diablo III</td>
+                    <td class="table__tableCell table__tableCellText">Blizzard Entertainment</td>
+                    <td class="table__tableCell table__tableCellText">15 Maja, 2012</td>
+                    <td class="table__tableCell table__tableCellText">Battle.Net</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">YouCode 2021 - Damian Niklasiński Edycja II</footer>
+</body>
+
+</html>

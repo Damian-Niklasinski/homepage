@@ -1,0 +1,51 @@
+.navigation {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__listItem {
+    padding: 5px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+    border-radius: 3px;
+    border-bottom: 2px solid orangered;
+    margin-right: 40px;
+}
+
+.link:hover {
+    color: orangered;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__listItem {
+    padding: 5px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+    border-radius: 3px;
+    border-bottom: 2px solid orangered;
+    margin-right: 40px;
+}
+
+.link:hover {
+    color: orangered;
+}

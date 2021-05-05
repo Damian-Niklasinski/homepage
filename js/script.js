@@ -3,7 +3,7 @@
         console.log("Hej, bardzo mi miło że tu wpadłeś!");
     }
 
-    const onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         const body = document.querySelector("body");
         body.classList.toggle("darkTheme");
     };
@@ -14,7 +14,7 @@
         let schoolPicture = document.querySelector(".section__schoolPicture");
         let hideSchoolPicture = document.querySelector(".section__hideSchoolPictureButton");
         let hidePicture = document.querySelector(".hidePicture");
-        let changeTheme = document.querySelector(".section__changeThemeButton");
+        const changeTheme = document.querySelector(".section__changeThemeButton");
 
         changeSizeButton.addEventListener("click", () => {
             if (changeSizeButton.innerText === "Powiększ rozmiar zdjęcia") {
@@ -31,7 +31,7 @@
             schoolPicture.classList.toggle("hidePicture");
         });
 
-        changeTheme.addEventListener("click", onChangeBackgroundClick);
+        changeTheme.addEventListener("click", toggleBackground);
 
         welcome();
     };

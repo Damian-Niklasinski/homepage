@@ -1,6 +1,10 @@
-function welcome() {
+const welcome = () => {
     console.log("Hej, bardzo mi miło że tu wpadłeś!");
 }
+
+const onChangeBackgroundClick = () => {
+    body.classList.toggle("darkTheme");
+};
 
 welcome();
 
@@ -10,7 +14,6 @@ let schoolPicture = document.querySelector(".section__schoolPicture");
 let hideSchoolPicture = document.querySelector(".section__hideSchoolPictureButton");
 let hidePicture = document.querySelector(".hidePicture");
 let changeTheme = document.querySelector(".section__changeThemeButton");
-let darkTheme = document.querySelector(".darkTheme");
 let body = document.querySelector("body");
 
 changeSizeButton.addEventListener("click", () => {
@@ -28,6 +31,4 @@ hideSchoolPicture.addEventListener("click", () => {
     schoolPicture.classList.toggle("hidePicture");
 });
 
-changeTheme.addEventListener("click", () => {
-    body.classList.toggle("darkTheme");
-})
+changeTheme.addEventListener("click", onChangeBackgroundClick);

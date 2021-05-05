@@ -1,10 +1,10 @@
-# First Homepage by Damian Niklasiński
+# Homepage
 ## Demo
 
-[![N|Solid](https://api.astar.pl/wp-content/uploads/2020/03/img45n290t335-100x100.png)](https://damian-niklasinski.github.io/homepage/)
-
-Click here to see the Homepage!
+[Homepage](https://damian-niklasinski.github.io/homepage/)
 
 # Description
+
+That homepage it was created for the YouCode course. Here u can find out about my person and interests.
 
 ![Gif](https://media.giphy.com/media/BRRVSFd83lrvAXXgE0/giphy.gif)
